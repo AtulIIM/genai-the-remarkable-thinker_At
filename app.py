@@ -21,7 +21,7 @@ os.environ['KMP_DUPLICATE_LIB_OK']='True'
 
 # Save uploaded file locally.
 def save_uploaded_file(uploadedfile):
-    with open(os.path.join("uploads", uploadedfile.name), "wb") as f:
+    with open(os.path.join("genai-the-remarkable-thinker/uploads/", uploadedfile.name), "wb") as f:
         f.write(uploadedfile.getbuffer())
     return
 
