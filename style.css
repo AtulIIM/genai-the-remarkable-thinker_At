@@ -1,0 +1,46 @@
+/* desgin for upload section */
+.st-emotion-cache-1gulkj5 {
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    padding: 1rem;
+    background-color: rgb(211, 245, 242);
+    border-radius: 0.5rem;
+    color: rgb(49, 51, 63);
+}
+
+/* sidebar padding */
+.st-emotion-cache-16txtl3 {
+    padding: 1rem 1.5rem;
+}
+
+/* design for logo*/
+.st-emotion-cache-1v0mbdj {
+    display: flex;
+    flex-direction: column;
+    -webkit-box-align: stretch;
+    align-items: stretch;
+    width: 200px;
+    -webkit-box-flex: 0;
+    height:140px;
+    margin-left: 30px;
+    flex-grow: 0;
+}
+
+.st-bg {
+    background-color: rgb(211, 245, 242);
+}
+
+/* for send msg in doc chat */
+.st-emotion-cache-s1k4sy {
+    background-color: rgb(211, 245, 242);
+}
+
+/* user chat msg */
+.st-emotion-cache-1c7y2kd {
+    background-color: rgba(197, 213, 245, 0.5);
+}
+
+.st-emotion-cache-4oy321 {
+    background-color: rgb(223, 245, 214);
+}
