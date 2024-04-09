@@ -223,7 +223,7 @@ def main():
             # st.success('Your file successfully Submitted. S', icon="✅")
             st.markdown("<hr>", unsafe_allow_html=True)
             save_uploaded_file(uploaded_file_doc_chat)
-            docgptlangresponse = DocGptLangResponse("uploads\{}".format(uploaded_file_doc_chat.name))
+            docgptlangresponse = DocGptLangResponse("genai-the-remarkable-thinker/uploads/{}".format(uploaded_file_doc_chat.name))
             doc_context = docgptlangresponse.doc_context()
             
             prompt = ChatPromptTemplate.from_messages(
