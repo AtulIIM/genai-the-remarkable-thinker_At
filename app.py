@@ -73,7 +73,7 @@ def main():
     </style>
     """,unsafe_allow_html=True)
     
-    st.sidebar.image('img\logo_png.png')
+    # st.sidebar.image('img\logo_png.png')
  
     # Add space below radio button options
     st.sidebar.markdown("<hr>", unsafe_allow_html=True)
